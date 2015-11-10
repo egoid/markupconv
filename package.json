@@ -1,14 +1,22 @@
 {
   "name": "markupconv",
   "version": "1.0.0",
-  "main": "main.js",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "start": "node main.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egoid/markupconv.git"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "domready": "^1.0.8"
-  }
+  "bugs": {
+    "url": "https://github.com/egoid/markupconv/issues"
+  },
+  "homepage": "https://github.com/egoid/markupconv#readme"
 }

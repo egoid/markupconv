@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
 
 app.get('/markup',function(req,res){
-  res.send('markup')
+  res.render('markup')
 })
 app.post('/markup',function(req,res){
   var x = req.body
