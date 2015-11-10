@@ -1,5 +1,7 @@
 'use strict'
 
+var PORT = process.env.PORT || 3000;
+
 var express = require('express');
 var morgan = require('morgan');
 var bodyParser = require('body-parser');
